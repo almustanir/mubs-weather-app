@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+
+    
+}
+
+body {
+    
+    overflow: hidden;
+    
+}
+
+.container  {
+  position: absolute;
+  overflow: hidden;
+  animation-name: mubs;
+  animation-duration: 60s;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/clouds-2329680__340.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 37.5rem;
+  height: 70vh;
+  width: 80vw;
+  padding: 3rem 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -45%);
+  -webkit-transform: translate(-45%, -45%);
+  -moz-transform: translate(-45%, -45%);
+  -ms-transform: translate(-45%, -45%);
+  -o-transform: translate(-45%, -45%);
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+@keyframes mubs {
+    fom{background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/266451/pexels-photo-266451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);}
+    to{background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/clouds-2329680__340.jpeg);}
+}
+
+
+
+
+ 
+.detailsBox {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1rem;
+    margin-top: 11rem;
+    color: #fff;
+}
+
+.weather-container {
+    border: 2px dotted orange;
+    border-style: dotted;
+    padding:20px;
+    height: auto;
+    
+}
+
+.weather-container .temp {
+    font-size: 4rem;
+    
+  
+}
+
+.weather-container .timeLocation{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.container nav input {
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 1px solid black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 80%;
+    margin-bottom: 0.5rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.container nav {
+    
+}
+
+.search_button {
+    border: none;
+    color: #fff;
+    background-color: #f4a261;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin: 4px 0 2px 0;
+    padding: 8px 10px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
